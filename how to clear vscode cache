@@ -1,0 +1,16 @@
+
+christian@christian-DELL:~$ rm -rf /home/christian/.config/Code/Cache/*
+christian@christian-DELL:~$ rm -rf /home/christian/.config/Code/CachedData/*
+christian@christian-DELL:~$ rm -rf /home/christian/.config/Code/CachedExtension/*
+christian@christian-DELL:~$ rm -rf /home/christian/.config/Code/CachedExtensionVSIXs/*
+christian@christian-DELL:~$ rm -rf /home/christian/.config/Code/CachedProfilesData/*
+
+christian@christian-DELL:~/.config/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21$ rm -rf *
+
+christian@christian-DELL:~/.config/Code/Cache$ rm -rf *
+christian@christian-DELL:~/.config/Code/CachedData$ rm -rf *
+christian@christian-DELL:~/.config/Code/Local Storage$ rm -rf *
+christian@christian-DELL:~/.config/Code$ rm -rf CachedExtension/*
+christian@christian-DELL:~/.config/Code$ rm -rf CachedExtensionVSIXs/*
+christian@christian-DELL:~/.config/Code/User/globalStorage$ ls
+christian@christian-DELL:~/.config/Code/User/workspaceStorage$ ls
