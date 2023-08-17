@@ -55,3 +55,25 @@ get loaded php configuration
 ## Find directory
 
 `find . -type d | grep DIRNAME`
+
+## Permissions
+```text
+a b  c  d
+_ _  _  _
+-rw-r--rwx
+ 420400421
+  6  4  7
+```
+- a: Represents type
+  - \- = regular file
+  - d = directory
+- b: Owner permissions
+- c: Group permissions
+- d: Other permissions
+
+
+- rwx
+  - read
+  - write 
+  - execute
+
