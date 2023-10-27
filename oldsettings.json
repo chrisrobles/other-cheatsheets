@@ -1,0 +1,296 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "php.validate.executablePath": "",
+    "editor.mouseWheelZoom": true,
+
+    "Notes.notesLocation": "c:\\Users\\chris\\AppData\\Roaming\\Code\\User\\notes",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.operator.notes",
+                "settings": {
+                    "foreground": "#92b630"
+                }
+            },
+            {
+                "scope": "variable.language.notes",
+                "settings": {
+                    "foreground": "#92b630",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#6ec2fa",
+        "editorIndentGuide.background": "#0094f7",
+        // Scrollbar indicators (right)
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000"
+    },
+    "font-switcher.enableLivePreview": true,
+    "font-switcher.fontFamily": "Consolas, DejaVu Sans Mono, monospace, Helvetica, Monaco, Menlo, 'Droid Sans Mono', 'Inconsolata', 'Courier New'",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "bracket-pair-colorizer-2.colorMode": "Consecutive",
+    "bracket-pair-colorizer-2.colors": [
+
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "bracket-pair-colorizer-2.showBracketsInGutter": true, 
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    "bracket-pair-colorizer-2.excludedLanguages": [
+        "notes"
+    ],
+    "[notes]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.md": "default"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\chris\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.terminal.executeInFileDir": true,
+    "remote.SSH.remotePlatform": {
+        "modivibe.com": "linux"
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "extensions.ignoreRecommendations": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.acceptSuggestionOnEnter": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.autoReveal": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${activeEditorMedium}",
+    "php-docblocker.varDescription": true,
+    "php-docblocker.paramDescription": true,
+    "php-docblocker.returnDescription": true,
+    "php-docblocker.useShortNames": true,
+    "php-docblocker.extra": ["@date"],
+    "php-docblocker.qualifyClassNames": true,
+    "php-docblocker.propertyTemplate": {
+        "var": {
+            "content": "@var ${1:mixed} ${2:description}"
+        }
+    },
+    "php-docblocker.classTemplate": {
+        "message":{},
+        "author": {
+            "content": "@author Christian <christian@lv.net>"
+        },
+        "date": {
+            "content": "@date ${###:00}/${###:00}/${###:00}",
+        },
+        "package": {
+            "content": "@package ${###:Root Class}"
+        }
+    },
+    "php-docblocker.functionTemplate": {
+        "message":{},
+        "param":{},
+        "return":{}
+    },
+    "openInExternalApp.openMapper" : [
+        {
+            "extensionName": "pptx",
+            "apps": [
+                {
+                    "title": "powerpoint",
+                    //C:\Program Files\Microsoft Office\root\Office16
+                    "openCommand": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.exe"
+                }
+            ]
+        }
+    ],
+    "cSpell.userWords": [
+        "accountid",
+        "activedirectory",
+        "Aiseah",
+        "apachectl",
+        "arent",
+        "autoload",
+        "Blockquotes",
+        "Caciopppo",
+        "Cheatsheet",
+        "Cheatsheets",
+        "clockout",
+        "commiters",
+        "configtest",
+        "crosslink",
+        "CURDATE",
+        "curr",
+        "DAYOFWEEK",
+        "devs",
+        "didnt",
+        "dissite",
+        "Distro",
+        "distros",
+        "docblocker",
+        "doesnt",
+        "dont",
+        "dpkg",
+        "elif",
+        "empid",
+        "Emps",
+        "endfor",
+        "enmod",
+        "ensite",
+        "fcgid",
+        "filesize",
+        "Fira",
+        "fpdf",
+        "Fpdi",
+        "frontmatter",
+        "fulldate",
+        "gaction",
+        "getcomposer",
+        "googleworkspace",
+        "graylisted",
+        "hasnt",
+        "havent",
+        "havings",
+        "Hurtado",
+        "imagick",
+        "ipynb",
+        "isnt",
+        "Keychain",
+        "keyout",
+        "libapache",
+        "logpoints",
+        "Lundgren",
+        "lvnetcontact",
+        "masteradmin",
+        "mbstring",
+        "mcrypt",
+        "modivibe",
+        "Monokai",
+        "MYSQLI",
+        "Navs",
+        "newkey",
+        "occured",
+        "octo",
+        "Ondrej",
+        "overlaycomplete",
+        "pbcopy",
+        "pdfs",
+        "phpx",
+        "POWERPNT",
+        "println",
+        "Pyatkov",
+        "Rodda",
+        "Sattler",
+        "schmea",
+        "Sergey",
+        "setasign",
+        "strikethrough",
+        "strtotime",
+        "sury",
+        "Swiftmailer",
+        "Symfony",
+        "synthwave",
+        "Sysnative",
+        "timecarduserclockout",
+        "timediff",
+        "timeid",
+        "timeoff",
+        "Timesheet",
+        "TIMESTAMPDIFF",
+        "usekeychain",
+        "verticies",
+        "webserver",
+        "windir",
+        "xclip",
+        "YEARWEEK",
+        "yzhang",
+        "zanny"
+    ],
+    "customWindowZoom.zoomLevelChangeValue": 0.01,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabSize": 4,
+    "window.zoomLevel": 1,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.minimap.enabled": false,
+    "editor.foldingStrategy": "indentation",
+    "php.format.rules.groupUseNewLineBeforeFirstDeclaration": false,
+    "php.format.rules.alignConsecutiveAssignments": true,
+    "php.format.rules.finallyOnNewLine": false,
+    "editor.codeActionsOnSave": {},
+    "errorLens.excludeBySource": [
+        "PHP(PHP0410)"
+    ],
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.fontFamily": "'Fira Code', Fira Code Retina, 'Droid Sans Mono', 'monospace', monospace",
+    "synthwave84.brightness": 1,
+    "editor.fontLigatures": true,
+    "markdown.validate.enabled": true,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "markdownShortcuts.bullets.marker": "-",
+    "[markdown]": {
+        "editor.wordWrap": "off",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    },
+    "markdownlint.config": {
+        "MD033": false,
+        "MD025": false,
+        "MD050": false,
+        "MD007": false,
+        "MD032": false,
+        "MD038": false,
+        "MD009": false,
+        "MD047": false,
+    },
+    "markdownlint.focusMode": 1,
+    "markdownlint.run": "onSave",
+    "markdown.styles": [
+        "/Users/chris/Library/Mobile Documents/com~apple~CloudDocs/Documents/Code/current/markdown-cheatsheet/markdown-preview.css",
+        "/home/christian/Downloads/current/markdown-cheatsheet/markdown-preview.css",
+        "C:\\Users\\chris\\iCloudDrive\\Documents\\Code\\current\\markdown-cheatsheet\\markdown-preview.css"
+    ],
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "scm.diffDecorations": "gutter",
+    "git.confirmSync": false,
+    "editor.stickyScroll.enabled": true, //https://github.com/gitkraken/vscode-gitlens/issues/689
+}
