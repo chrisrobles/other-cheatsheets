@@ -3,13 +3,13 @@
 ## nano
 
 - nano +12 file
-    - Goes to line 12
+  - Goes to line 12
 
 - Go to beginning of line
-    - ctrl+a
+  - ctrl+a
 
 - Go to end of line
-    - ctrl+e
+  - ctrl+e
 
 ## Apachectl -k __ (Debian)
 
@@ -36,7 +36,7 @@ systemctl
 service
 - "high-level"
 - abstracts various service managers
-   - service redirects to systemctl on centos7
+  - service redirects to systemctl on centos7
 
 get loaded php configuration
 1) `sudo -i`
@@ -57,6 +57,7 @@ get loaded php configuration
 `find . -type d | grep DIRNAME`
 
 ## Permissions
+
 ```text
 a b  c  d
 _ _  _  _
@@ -77,3 +78,14 @@ _ _  _  _
   - write 
   - execute
 
+## Gzip | .gz
+
+Unzip
+`$ gzip -d file.gz`
+
+Unzip & keep .gz file
+`$ gzip -dk file.gz`
+
+Unzip **.tar.gz**
+(**.tar** archives compressed with gzip)
+`$tar -xf archive.tar.gz`
