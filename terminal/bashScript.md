@@ -4,6 +4,8 @@ File Ext: .sh
 
 Run by: ```$ . script.sh arg1 arg2``` | ```$ bash script.sh arg1 arg2```
 
+## Boilerplate
+
 Start with: ```#! /bin/bash``` \
 (get */bin/bash* with ```$ which bash```)
 
@@ -76,14 +78,6 @@ Start with: ```#! /bin/bash``` \
     done < "test.txt"
     ```
 
-## Terminal Commands
-
-- Create File ```touch fileName.sh```
-- Find file ```find . -type f "*.sh"```
-  - . = curr dir
-  - -type f  = text based file
-  - *.sh = all files ending in .sh
-
 ## Intro
 
 - Linux command line is a program called the shell.
@@ -104,5 +98,6 @@ Start with: ```#! /bin/bash``` \
   - Shebang = absolute path to the bash interpreter
   - Followed by path to bash shell
 - Find path to bash shell ```which bash```
+  - should be `/bin/bash`
 
 ![Alt text](https://www.freecodecamp.org/news/content/images/2022/03/image-119.png "Tux the Linux mascot")

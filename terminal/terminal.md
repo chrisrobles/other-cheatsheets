@@ -44,7 +44,7 @@ get loaded php configuration
 3) Get location of `Loaded Configuration File`
 4) If there is a cli listed in path, php is loaded for command line interface
 
-## Change php version
+## Change cl php version
 
 1) `cd /usr/bin`
 2) `php -v`
@@ -57,6 +57,7 @@ get loaded php configuration
 `find . -type d | grep DIRNAME`
 
 ## Permissions
+
 ```text
 a b  c  d
 _ _  _  _
@@ -77,3 +78,27 @@ _ _  _  _
   - write 
   - execute
 
+
+## Terminal Commands
+
+- Create File ```touch fileName.sh```
+- Find file ```find . -type f "*.sh"```
+  - . = curr dir
+  - -type f  = text based file
+  - *.sh = all files ending in .sh
+
+
+## MacOS Installing Commands / Executable Files
+
+The Symfony CLI was installed successfully!
+
+Use it as a local file:
+  /Users/chris/.symfony5/bin/symfony
+
+Or add the following line to your shell configuration file:
+  export PATH="$HOME/.symfony5/bin:$PATH" # (chris) expires when terminal is closed
+
+Or install it globally on your system:
+  mv /Users/chris/.symfony5/bin/symfony /usr/local/bin/symfony #makes executable runnable from anywhere on the system
+
+Then start a new shell and run 'symfony'
