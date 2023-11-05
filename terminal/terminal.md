@@ -79,17 +79,31 @@ _ _  _  _
   - execute
 
 
-## Terminal Commands
+## Create File
 
-- Create File ```touch fileName.sh```
-- Find file ```find . -type f "*.sh"```
-  - . = curr dir
-  - -type f  = text based file
-  - *.sh = all files ending in .sh
+```touch fileName.sh```
 
+## Find file ```find . -type f "*.sh"```
+- . = current dir
+- -type f  = text based file
+- *.sh = all files ending in .sh
 
-## MacOS Installing Commands / Executable Files
+## mkdir
 
+- Make all the required directories in the path
+  `mkdir -p exists/new/new/new`
+
+## MacOS Installing Binaries
+
+Binary = Commands = Executable Files
+
+Enable Global
+- `mv file /usr/local/bin/file`
+
+Enable for user (dont require root permissions)
+- `mv file ~/.local/bin/file`
+
+```text
 The Symfony CLI was installed successfully!
 
 Use it as a local file:
@@ -102,3 +116,4 @@ Or install it globally on your system:
   mv /Users/chris/.symfony5/bin/symfony /usr/local/bin/symfony #makes executable runnable from anywhere on the system
 
 Then start a new shell and run 'symfony'
+```
