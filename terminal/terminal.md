@@ -89,7 +89,9 @@ _ _  _  _
 
 ```touch fileName.sh```
 
-## Find file ```find . -type f "*.sh"```
+## Find file 
+
+`find . -type f "*.sh"`
 - . = current dir
 - -type f  = text based file
 - *.sh = all files ending in .sh
