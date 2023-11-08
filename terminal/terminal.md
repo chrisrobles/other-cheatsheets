@@ -52,6 +52,13 @@ get loaded php configuration
 4) `mv phpx.y php`
 5) `php -v`
 
+## Check What Is Using Port
+
+```terminal
+lsof -i :8000
+kill -9 <PID>
+```
+
 ## Find directory
 
 `find . -type d | grep DIRNAME`
@@ -77,7 +84,6 @@ _ _  _  _
   - read
   - write 
   - execute
-
 
 ## Create File
 
